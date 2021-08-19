@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'dm serif';
+  src: url(/fonts/DMSerifDisplay-Italic.ttf);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.container {
+  margin: 0 auto;
+  width: 400px;
+  background-color: rgb(239, 241, 239);
+  box-shadow: 30px 20px 60px rgb(215, 232, 248);
+}
+
+body {
+  
+}
+
+li {
+  list-style: none;
+}
+
+.hat {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.set-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+.wifi {
+  margin-right: 25px;
+}
+
+.gv {
+  align-items: center;
+  color: blue;
+}
+
+.img-ddm {
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-left: 125px;
+  margin-top: 20px;
+}
+
+.ddm-title {
+  font-family: 'Style Script', cursive;
+  color: rgb(27, 4, 48);
+  text-align: center;
+}
+
+.ddm-text {
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  color: rgb(13, 1, 24);
+}
+
+.follow {
+  margin-left: 130px;
+
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 6px 25px;
+  text-decoration: none;
+  background-color: rgb(65, 58, 71);
+  color: wheat;
+}
+
+.follow:hover {
+  font-family: 'dm serif';
+}
+
+.massage {
+  margin-left: 150px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 6px 25px;
+  text-decoration: none;
+  background-color: rgb(66, 56, 75);
+  color: wheat;
+}
+
+.massage:hover {
+  font-family: 'dm serif';
+}
+
+.imges {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.aaa {
+  margin-bottom: 20px;
+}
